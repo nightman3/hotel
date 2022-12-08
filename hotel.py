@@ -28,17 +28,14 @@ class Animals(dict):
 
 
 an = Animals()
-# добавление животного
+
 print(an.add_animals('giraffe', 97))
 
 print(an)
 
 # 3. Добавить способ сравнения классов на больше и меньше.
 #    Продемонстрировать работу
-# >> > dog = Animal(............)
-# >> > cat = Animal(............)
-# print(cat < dog)
-# >> > True
+
 
 giraffe = an.animals_dict['giraffe']
 dog = an.animals_dict['dog']
