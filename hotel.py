@@ -56,14 +56,7 @@ class Products(dict):
 
     def __missing__(self, key):
         return 0
-    #
-    # def __str__(self):
-    #     result = ''
-    #     for key, val in self.items():
-    #         if self[key] in result:
-    #             result += f'Позиции {key} осталось на скалде {val}'
-    #     return result
-    #
+# создание товара
 
 
 p = Products({
